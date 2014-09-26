@@ -11,6 +11,10 @@
 
 			<?php endwhile; ?>
 
+		<?php else : ?>
+
+			<?php get_template_part( 'content', 'recursion' ); ?>
+
 		<?php endif; ?>
 	</main>
 </div>
