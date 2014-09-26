@@ -39,5 +39,9 @@ add_filter( 'wp_title', 'recursion_wp_title', 10, 2 );
 
 function recursion_scripts(){
 	wp_enqueue_style( 'base-style', get_stylesheet_uri(), false, null );
+
+	wp_enqueue_style( 'prism-css', get_template_directory_uri() . '/assets/css/prism.css', false, null );
+
+	wp_enqueue_script( 'prism-js', get_template_directory_uri() . '/assets/js/prism.js', array('jquery'), null, true );
 }
 add_action( 'wp_enqueue_scripts', 'recursion_scripts' );
