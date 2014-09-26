@@ -18,6 +18,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 /*--------------------------------------------------------------
 1.0 Reset
 2.0 Typography
+3.0 Navigation
 --------------------------------------------------------------*/
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -222,4 +223,28 @@ small {
 
 big {
 	font-size: 125%;
+}
+
+/*--------------------------------------------------------------
+3.0 Navigation
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+3.1 Links
+--------------------------------------------------------------*/
+a {
+	color: royalblue;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+a:visited {
+	color: purple;
+}
+
+a:hover,
+a:focus,
+a:active {
+	color: midnightblue;
 }
