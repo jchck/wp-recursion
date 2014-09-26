@@ -1,4 +1,4 @@
-wp-recursion
+WordPress Recursion
 ============
 
-For those times when you wanna make absolutely sure you've got something up.
+A theme for those times when you really gotta show a client that you really did do *something*
